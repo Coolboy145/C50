@@ -1,0 +1,35 @@
+h1 {
+    color: brown;
+}
+
+/** {
+    border: solid;
+}*/
+
+.headline {
+    background-color: chartreuse;
+    display:flex;
+    justify-content: space-between;
+}
+
+.Games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first-baseline;
+}
+
+p,h2{
+    text-align: center;
+}
+
+.share{
+    display:flex;
+    justify-content: flex-end;
+
+}
